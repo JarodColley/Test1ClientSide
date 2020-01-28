@@ -20,7 +20,9 @@ let app;
      */
     function Start()
     {
-
+        //changing the large button text to learn more
+        let largeButton = document.getElementById("largeButton");
+        largeButton.textContent = "Learn More";
 
         Main();
     }
