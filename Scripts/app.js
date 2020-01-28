@@ -27,7 +27,7 @@ let app;
         //creating an h3 tag
         let h3 = document.createElement("h3");
         //setting the text content
-        h3.textContent = "Name: Jarod Colley [100704994]";
+        h3.textContent = "Name: Jarod Colley 100704994";
         //inserting it before the large button
         largeButton.parentNode.insertBefore(h3,largeButton);
 
