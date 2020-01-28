@@ -24,6 +24,11 @@ let app;
         let largeButton = document.getElementById("largeButton");
         largeButton.textContent = "Learn More";
 
+        //creatig an h3 tag
+        let h3 = document.createElement("h3");
+        h3.textContent = "Name: Jarod Colley [100704994]";
+        largeButton.parentNode.insertBefore(h3,largeButton);
+
         Main();
     }
 
