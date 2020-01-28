@@ -34,7 +34,8 @@ let app;
         //changing the text content of the paragraph tag with an id of firstParagraph
         let paragraph = document.getElementById("firstParagraph");
         paragraph.textContent = "JavaScript is a prototype-based language, and every object in JavaScript has a hidden internal property called Prototype that can be used to extend object properties and methods.";
-
+        //hiding the paragraph
+        paragraph.style.display = "none";
         Main();
     }
 
