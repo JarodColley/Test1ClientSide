@@ -36,6 +36,14 @@ let app;
         paragraph.textContent = "JavaScript is a prototype-based language, and every object in JavaScript has a hidden internal property called Prototype that can be used to extend object properties and methods.";
         //hiding the paragraph
         paragraph.style.display = "none";
+
+        //event listener for the large button
+        largeButton.addEventListener("click", 
+        function(){
+            if(largeButton.textContent == "Learn More")
+            { largeButton.textContent = "Hide Details"} 
+            else {largeButton.textContent = "Learn More"}});
+
         Main();
     }
 
